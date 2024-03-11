@@ -36,7 +36,7 @@ void add(void){
     cin>>num1;
     cout<<"enter the secend num";
     cin>>num2;
-    sub=num1+num2;
+    sub=num1-num2;
     cout<<"your sub is"<<sub;
  }
  
