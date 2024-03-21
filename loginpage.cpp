@@ -5,19 +5,13 @@ void login();
 string name;
 string email;
 string pass;
-string email_id;
-string password;
 
 int main(){
 
 regestration();//colling the fun
 login();
 
-cout<<"enter your name:"<<endl;
-cin>>name;
-cout<<"enter your email:"<<endl;
-cin>>email;
-cout<<"enter your pass:"<<endl;
+
 cin>>pass;
 }
 
@@ -33,6 +27,16 @@ cin>>password;
 }
 
 void login(){
+    
+string email_id;
+string password;
+
+cout<<"enter your name:"<<endl;
+cin>>name;
+cout<<"enter your email:"<<endl;
+cin>>email;
+cout<<"enter your pass:"<<endl;
+    
     if(email==email_id && pass==password){
         cout<<"welcome";
     }
