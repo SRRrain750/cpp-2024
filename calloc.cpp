@@ -17,8 +17,8 @@ for (int i=0;i<5; i++){
 }
 
 //set intial position of pointer
-for(int k=5;k>0;k--){
-    cout<<*p<<" ";
+for(int k=4;k>0;k--){
+  
     p--;
 
 }
